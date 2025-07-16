@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+ box-sizing: content-box; 
+ margin: 0;  
+ padding: 0;
+}
+
+.contenedor-body {
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.contenedor-logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.imagen {
+    width: 150px;
+    height: 100px;
+}
+
+
+.contenedor-ventas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    color: gray;
+}
+
+
+.ventas-2 {
+    margin-right: 5px;
+}
+
+.telefono-2 {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    margin-right: 4px;
+}
+
+.tel-ventas {
+    margin-right: 2px;
+}
+
+.whatsapp-2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.what-ventas {
+    margin-left: 3px;
+}
+
+.contenedor-horario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    padding-right: 15px;
+    color: gray;
+}
+
+
+
+.flex-links {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FC7A1E;
+    font-size: 25px;
+    padding: 2%;
+}
+
+.paquetes {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.vuelos {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.alojamientos {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.asistencia {
+    color: #E7E7E7;
+    text-decoration: none;
+}
+
+.busqueda-section {
+    display: flex;
+    padding: 3%;
+}
+
+.search-box {
+    background-image:url(media/img/louvre.jpg);
+    background-size: 100%;
+    padding: 4%;
+    justify-content: inherit;
+    border-radius: 7px;
+}
+
+
+.formulario-busqueda {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   background-color: #485696;
+   border: 2px solid gray;
+   color: #E7E7E7;
+   border-radius: 20px;
+   text-align: center;
+   gap: 15px;
+   padding: 3%;
+}
+
+.botonbuscar {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+}
+
+.botonbuscar:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+.flex-container {
+display: flex;
+flex-wrap: wrap;
+padding: 4%;
+justify-content:center;
+gap: 10px;
+}
+
+.argentina {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.promo {
+font-size: x-large;
+}
+
+.oferta {
+font-size: medium;
+color: #F24C00;
+}
+
+.opciones {
+font-size: small;    
+}
+
+.boton1 {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    text-align: center;
+    padding: 2%;
+    margin: 15px;
+}
+
+.boton1:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+.brasil {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;
+}
+
+.europa {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.mundialclubes {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.caribe {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.sudesteasia {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.disney {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.uruguay {
+border: 5px solid #FC7A1E; 
+border-radius: 7px;
+text-align: center;  
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #E7E7E7;
+    padding: 20px;
+}
+
+
+.formulario {
+    border: 3px solid gray;
+    border-radius: 30px;
+    text-align: center;
+    width: 400px;
+}
+
+.boton {
+    background-color: #E7E7E7;
+    border-radius: 5px;
+    color: black;
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.boton:hover {
+   background-color: #F24C00; 
+   color: white;
+   font-family: Righteous, Verdana, Tahoma, sans-serif;
+   cursor: pointer; 
+}
+
+input[type=text],[type=email],[type=number] {
+border: 2px solid black;
+border-radius: 5px; 
+padding: 1px; 
+margin: 2px;  
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+textarea[name=mensajeusuario] {
+border: 2px solid black;
+border-radius: 5px; 
+padding: 1px;
+margin: 2px;   
+}
+
+.error {
+ color: #F24C00;
+}

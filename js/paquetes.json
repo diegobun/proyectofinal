@@ -1,0 +1,30 @@
+[
+ {
+    "id" : 1111,
+    "name" : "Bariloche con Villa la Angostura",
+    "description" : "Vuelo + Hotel★★★★ + Traslados + Excursiones",
+    "price" : 1465485,
+    "image" : "media/img/bariloche.png"
+ }, 
+ {
+    "id" : 2222,
+    "name" : "Río de Janeiro ¡Al completo!",
+    "description" : "10 noches: Vuelo + Hotel + Asistencia + Excursiones",
+    "price" : 2570480,
+    "image" : "media/img/Brasil.jpg"
+ }, 
+ {
+    "id" : 3333,
+    "name" : "Capitales de Europa ¡En 15 días!",
+    "description" : "7 ciudades: Vuelo + Hotel + Asistencia + Excursiones",
+    "price" : 5760325,
+    "image" : "media/img/londres.jpg"
+ }, 
+ {
+    "id" : 4444,
+    "name" : "Punta Cana ¡Imperdible!",
+    "description" : "7 noches: Vuelo + Hotel Riu Bambú + All inclusive",
+    "price" : 3500170,
+    "image" :"media/img/puntacana.jpg"
+ }
+ ]

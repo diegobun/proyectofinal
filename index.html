@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Travel Time </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <script src="/js/traveltime.js"></script>
+<body class="contenedor-body">
+  <header>
+    <div class="contenedor-logo"> 
+    <img class="imagen" src="media/img/logo 1.png" alt="logo">
+    </div>
+    <div class="contenedor-ventas"> 
+    <p class="ventas-2">Ventas:</p>
+    <img class="telefono-2" src="media/img/telefono-2.png" alt="venta">
+    <p class="tel-ventas">0810.222.1022</p>
+    <img class="whatsapp-2" src="media/img/whatsapp-2.png" alt="venta2">
+    <p class="what-ventas">+54 911 36775637</p> 
+     </div>
+     <div class="contenedor-horario">
+    <p class="horarios"> De lunes a domingos y feriados de 9 a 23 h</p>
+     </div>
+
+  </header>
+  <nav class="items">
+   <ul class="flex-links">
+        <a class="paquetes" href="pages/paquetes.html">Paquetes</a>    
+        <a class="vuelos" href="">Vuelos</a>
+        <a class="alojamientos" href="">Alojamientos</a>
+        <a class="asistencia" href="">Asistencia</a>
+      </ul>
+  </nav>
+
+  <main>
+    <section class="busqueda-section">
+      <div class="search-box">
+      <form class="formulario-busqueda" action="" method="post">
+       <input type="radio" name="ida" id="ida">
+       <label for="ida">Ida</label> 
+       <input type="radio" name="vuelta" id="vuelta">
+       <label for="vuelta">Vuelta</label> 
+       <input type="radio" name="multidestino" id="multidestino"> 
+       <label for="multidestino">Multidestino</label> 
+       <input type="text" id="origen" name="origen" placeholder="Salgo de">
+       <input type="text" id="destino" name="destino" placeholder="Voy a">
+       <input type="text" id="fecha ida" name="fecha ida" placeholder="Salida"> 
+       <input type="text" id="fecha vuelta" name="fecha vuelta" placeholder="Regreso">
+       <input type="text" id="pasajeros" name="pasajeros" placeholder="Personas"> <br>
+       <button class="botonbuscar" type="submit">Buscar</button>
+      </form>
+      </div>
+    </section>
+
+    <section>
+<div class="flex-container">
+  <div class="argentina">
+  <img src="media/img/argentina.jpg" alt="" width="300" height="200">
+  <p class="promo"> Viaja por Argentina </p>
+  <p class="oferta"> Hasta 6 cuotas sin interés </p>
+  <p class="opciones"> Vuelos, hoteles y paquetes </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="brasil">
+  <img src="media/img/Brasil.jpg" alt="" width="300" height="200">
+  <p class="promo"> Disfrutá Brasil </p>
+  <p class="oferta"> Desde $210.000 </p>
+  <p class="opciones"> Válido por tiempo limitado </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="europa">
+  <img src="media/img/europa.jpg" alt="" width="300" height="200">
+  <p class="promo"> Verano en Europa </p>
+  <p class="oferta"> A un solo clic </p>
+  <p class="opciones"> Vuelos, hoteles y paquetes </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="mundialclubes">
+  <img src="media/img/Mundial de Clubes.jpg" alt="" width="300" height="200">
+  <p class="promo"> Mundial de Clubes </p>
+  <p class="oferta"> Alentá a Boca o River </p>
+  <p class="opciones"> Paquetes exclusivos fase de grupos </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="caribe">
+  <img src="media/img/México y caribe.jpg" alt="" width="300" height="200">
+  <p class="promo"> México y el Caribe </p>
+  <p class="oferta"> Hasta 12 cuotas sin interés </p>
+  <p class="opciones"> ¡Viajá con todo resuelto y ahorra! </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="sudesteasia">
+  <img src="media/img/sudeste asiatico.jpeg" alt="" width="300" height="200">
+  <p class="promo"> Viví Sudeste Asiático </p>
+  <p class="oferta"> 10 días ¡al precio de 8! </p>
+  <p class="opciones"> Vuelo + Hotel + Traslados + Asistencia </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+
+  <div class="disney">
+  <img src="media/img/disney.jpg" alt="" width="300" height="200">
+  <p class="promo"> Paquetes a Disney </p>
+  <p class="oferta"> ¡Viajá con todo resuelto y AHORRA! </p>
+  <p class="opciones"> Aéreos, hotel, traslados y entradas a parques </p>
+  <button class="boton1"> Ver más </button>
+  </div>
+  
+  <div class="uruguay">
+  <img src="media/img/uruguay.jpg" alt="" width="300" height="200">
+  <p class="promo"> Escapada a Uruguay </p>
+  <p class="oferta"> 4 personas ¡al precio de 3! </p>
+  <p class="opciones"> Buque, hotel, bus turístico y actividades</p>
+  <button class="boton1"> Ver más </button>
+  </div>
+</div>
+    </section>
+
+  </main>
+  
+  <footer>
+    <div class="contenedor-footer">
+    <div>
+    <p class="sucursales"> Nuestras oficinas</p> <br>
+    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.798493106225!2d-58.44712092452447!3d-34.60925665779028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca13c03f7187%3A0xeaf4e7d39d8a19ad!2sAv.%20Dr.%20Honorio%20Pueyrred%C3%B3n%20990%2C%20C1405%20BAT%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1748445847739!5m2!1ses!2sar" width="100%" height="200vh" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+      <div class="formulario-consulta">
+      <form class="formulario"> <p class="consultas">Consultas</p> <br>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre" required> <br>
+      <input type="text" id="apellido" name="apellido" placeholder="Apellido" required> <br>
+      <input type="email" id="email" name="email" placeholder="Correo electrónico" required> <br>
+      <input type="number" id="edad" name="edad" placeholder="Edad"> <br>
+      <textarea name="mensajeusuario" id="mensajeusuario" rows="7" cols="20" placeholder="Mensaje"></textarea> <br>
+      <button id="enviar" class="boton" type="submit">Enviar</button> <br>
+      </form>
+
+    <div id="empty-name-error" class="error"></div>
+    <div id="empty-surname-error" class="error"></div>
+    <div id="empty-age-error" class="error"></div>
+    <div id="min-age-error" class="error"></div>
+    <div id="min-name-error" class="error"></div>
+    
+    </div>
+
+    <div class="flex-iconos">
+      <p>Seguinos </p> <br>
+      <img src="media/img/instagram-2.png" alt="">
+      <img src="media/img/facebook-2.png" alt="">
+      <img src="media/img/twitter-2.png" alt="">
+      <img src="media/img/linkedin-2.png" alt="">
+    </div>
+
+ 
+    </div>
+
+  </footer>
+  <script src="formulariotravel.js"></script>
+</body>
+
+</html>
+
