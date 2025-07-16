@@ -11,17 +11,57 @@
     background-color: white;
 }
 
-.contenedor-logo.form {
+.contenedor-logo {
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.imagen-logo {
+.imagen {
     width: 150px;
     height: 100px;
 }
 
+.contenedor-ventas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    color: gray;
+}
+
+
+.ventas-2 {
+    margin-right: 5px;
+}
+
+.telefono-2 {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+    margin-right: 4px;
+}
+
+.tel-ventas {
+    margin-right: 2px;
+}
+
+.whatsapp-2 {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.what-ventas {
+    margin-left: 3px;
+}
+
+.contenedor-horario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    padding-right: 15px;
+    color: gray;
+}
 
 section {
    background-color: #FC7A1E;
