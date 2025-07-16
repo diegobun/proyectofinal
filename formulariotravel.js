@@ -61,6 +61,6 @@ const btnEnviar = document.getElementById('enviar');
 btnEnviar.addEventListener('click' , function(event) {
     event.preventDefault ();
 if(validateForm()) {
-    window.location.href = '../pages/validaForm.html';
+    window.location.href = 'validaForm.html';
 }
 });
