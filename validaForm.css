@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+ box-sizing: content-box; 
+ margin: 0;  
+ padding: 0;
+}
+
+.contenedor-body-form {
+    font-family: Righteous, Verdana, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.contenedor-logo.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.imagen-logo {
+    width: 150px;
+    height: 100px;
+}
+
+
+section {
+   background-color: #FC7A1E;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   border: 2px solid gray;
+   border-radius: 20px;
+   text-align: center;
+   gap: 15px;
+   padding: 12%
+}
+
+.mensaje {
+  border: 1px solid black;
+  color: #E7E7E7;
+  border-radius: 8px;
+  text-align: center;
+  font-size: clamp(16px, 8vw, 32px);
+  margin: 12px;
+  padding: 48px;
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    background-color: #E7E7E7;
+    padding: 20px;
+}
