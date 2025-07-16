@@ -14,11 +14,11 @@ function validateForm (){
      hideError('empty-name');   
     }
 
-    if(name.trim() === '') {
+    if(surname.trim() === '') {
     showError('empty-surname', 'El apellido es obligatorio');
     isValid = false;
     } else {
-     hideError('empty-name');   
+     hideError('empty-surname');   
     }
 
     if(age.trim() === '') {
@@ -61,6 +61,6 @@ const btnEnviar = document.getElementById('enviar');
 btnEnviar.addEventListener('click' , function(event) {
     event.preventDefault ();
 if(validateForm()) {
-    window.location.href = "/pages/validaForm.html";
+    window.location.href = "../pages/validaForm.html";
 }
 });
